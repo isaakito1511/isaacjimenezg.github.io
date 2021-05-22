@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Foro de mensajes">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title> Foro de mensajes </title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+<body class="foro">
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="../Imagenes/iconomenu.png" alt="">
+        </label>
+    <nav>
+        <nav class="menu">
+        <ul>
+            <li><a href="../Datosbiográficos.html">Datos biográficos</a></li>
+            <li><a href="../HTML/Experiencia.html" target="_blank">Experiencia</a></li>
+            <li><a href="../HTML/Forodemensajes.html" target="_blank">Foro de mensajes</a></li>
+            <li><a href="../HTML/Lineadeltiempo.html" target="_blank">Linea del tiempo</a></li>
+            <li><a href="../HTML/Materialdeinterés.html" target="_blank">Material de interés</a></li>
+        </ul>           
+    </nav>
+    </nav>
+    </header>
+    <div class="containerall2">
+        <h1 class="titulo3">Foro de Mensajes</h1>
+        <img class="msj" src="../Imagenes/msj.jpg" alt="">
+        <img class="sug" src="../Imagenes/sugerencia.jpg" alt="">
+        <p class="if">En este espacio podrás dejar tus dudas, sugerencias, felicitaciones o cualquier tipo de 
+            comentario que tengas acerca de la página y de su autor.</p>
+    </div>
+    <main>
+        <h1></h1>
+
+              <p class="piy">Para hacer el envió deberá escribir algo obligatoriamente y este no podrá superar los 200 caracteres</p>
+
+                <form action="/action_page.php">
+                    <label class="comen" for="comentario">Comentario:</label><br><br><br>
+                    <textarea type="text" id="pin" name="pin" maxlength="200"  rows="10" cols="30" required></textarea><br><br>
+                <input class="enviar" type="submit" value="Enviar">
+                </form>
+    </main>
+    <div class="ingr" action="" >
+        <textarea   id="comentario" type="text" name="comment" class="fondotexto veri" placeholder="Escriba su comentario aqui.."rows="3"  maxlength="200" required pattern="a"></textarea>
+        <div class="send">
+          <button  onclick="envio()" name="button"><img src="../Imagenes/send.png" height="30px;" alt=""></button>
+        </div>
+      </div>
+  <section class="CONFULL" id="conjunto">
+
+  </section>
+</body>
+</html>        
